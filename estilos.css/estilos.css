@@ -1,0 +1,282 @@
+/* comentario */
+*{
+                    margin: 0%;
+                    padding: 0%;
+
+}
+body{
+
+                    background:rgb(34, 193, 195);
+                    background-color: #323a46;
+                    margin: auto;
+                    padding: auto;
+                    background-image: url(../multimedia/edificios.jpg);
+                    flex-wrap: wrap;
+                  
+                   
+}
+header{
+                    
+                    width: 1000px;
+                    max-width: 1000px;
+                   
+                    margin: 0% auto;
+                    
+                    font-style: italic;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    
+                    color: aqua;
+
+                    background-image: url(../multimedia/039-times-square.png);
+                  
+                    background-size: cover;
+}
+.tituloprincipal{  
+               
+
+                    
+
+}
+#transicion{
+                    background: #6d1204;
+                    padding: 15px 15px;
+                    color: #00ffff;
+                    margin: 25px 25px;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: italic;
+                    width: 300px;
+                    height: 70px;
+                    transition: heigth 2s, width 1s;
+
+}
+#transicion:hover{
+                    width: 500px;
+                    height: 100px;
+
+}
+.subtituloprincipal{
+                   
+                    padding: 10px 10px;
+                    margin: 35px 35px;
+                    text-align: center;
+                    font-size: 2rem;;
+                    font-style: italic;
+}
+
+/*
+nav{
+                    background: #6d1204;
+                    margin: 25px 25px;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        
+}
+ul{
+                    color: aqua;
+                    list-style: none;
+                    list-style-type: none;
+                    margin: 15px;
+                    padding: 0%;         
+}
+li{
+                    
+                    display: none;
+                    color: aqua;
+                    
+                    list-style: none;
+                    list-style-type: none;
+                    margin: 15px;
+                    padding: 3%;
+                    
+}
+
+*/
+a{ 
+                    color:aqua;
+                    font-style: italic;
+                    font-weight: bold;
+                    
+                    
+}
+nav{                
+                    flex-direction: row;
+                    background: #6d1204;
+                    margin: 25px 25px;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        
+}
+.pages {             
+                    position: relative;
+                    display: inline-block;
+                    color: aqua;
+                    font-size: 25px;
+                    list-style-type: none;
+                    margin: 15px;
+                    padding: 0%;
+                    justify-content: space-evenly;
+
+}
+.listadepaginas{    
+                    justify-content: space-evenly;
+                    position: relative; 
+                    display:inline; 
+                    color: aqua;
+                    justify-content: center;
+                    list-style-type: none;
+                    flex-basis: 100%;
+                    
+
+} 
+.listadepaginas a {
+                    display: block;
+                    padding: 15px 20px;
+                    color: black;
+}
+.submenudeautos{
+                    position: absolute;
+                    display: none;
+                    flex-direction:column; 
+                    justify-content: space-evenly;
+                    justify-items: baseline;
+                    box-sizing: border-box;
+                    font-size: 15px;
+
+
+                    
+}  
+.sublistadeautos{
+                    /* si pongo relative queda una abajo de la otra en ese tamaño todabia no lo pude hacer desplegable */
+
+                    color: aqua;
+                    background-color: black;
+                    display: block;
+                    text-decoration: none;
+                    padding: 15px;                
+                  
+}
+.sublistadeautos a {
+                    color: white;
+}
+
+.pages .listadepaginas:hover .submenudeautos {
+                    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{                  display:flex;
+                    text-align:center;
+                    justify-content: center;
+                    color:aqua;
+                    font-size: auto;
+                    font-style: italic;
+                    font-weight: bold;
+                    margin: 1rem;
+                    padding: 0px ; 
+                    /* flex tanto para q valla abajo arri,isq,der */
+}
+
+.TEXTO1{
+
+                    background: rgb(109, 18, 4);
+                   width: 55%;
+                   height: 55%;
+                   margin-top: 15rem;
+                   
+                   display: flex;
+                   justify-content: flex-end;
+                   color: #000e04;
+                   flex-direction: column;
+                   flex-wrap: wrap;
+                    float: left;
+                   box-sizing: border-box;
+                   font-style: italic;
+                   font-weight: bold;
+                   font-size: x-large;
+                    
+
+                    
+}
+
+.TEXTO2{
+                    background: #6d1204;
+                   padding-left:2px;
+                   margin-left: 52rem;
+                    width: 15%;
+                    height: ;
+                    
+                    display: flex;
+                    text-align: center;
+                    justify-content: flex-end;
+                    justify-items:right;
+                    flex-direction:column;
+                    flex-wrap: wrap;
+                    float: right;
+                    box-sizing: border-box;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: large;
+
+}
+
+.TEXTO3{
+                   
+                    margin: 15rem;
+                    width: 65%;
+                    height: 3rem ;
+                    display: flex;
+                    text-align: center;
+                    justify-content:last baseline;
+                    flex-direction:row;
+                    flex-wrap: wrap;
+                    box-sizing: border-box;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: x-large;
+                    color: aqua;
+   
+}
+
+footer{
+                    background: #6d1204;
+                    width: 100%;
+                    padding: 10px 10px;
+                    display: flex;
+                    text-align: center;
+                    justify-content: flex-end;
+                    justify-items:right;
+                    flex-direction:column;
+                    flex-wrap: nowrap;
+                    float: right;
+                    color: rgba(13, 153, 1, 0.508);
+                    box-sizing: border-box;;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-style: italic;
+                    font-weight: bold;              
+            
+}
+
+
+
+
+.piedepag{
+                   
+                    
+
+
+}
